@@ -9,13 +9,13 @@ function App() {
           <img src={ImageQrCode} alt="QR Code" />
         </div>
 
-        <div className="mb-[16px] font-bold text-center text-heading text-cloud-burst tracking-heading">
+        <h1 className="mb-[16px] font-bold text-center text-heading text-cloud-burst tracking-heading">
           Improve your front-end skills by building projects
-        </div>
+        </h1>
 
-        <div className="text-center text-body text-bluish-grey tracking-body max-w-[256px] mx-auto">
+        <p className="text-center text-body text-bluish-grey tracking-body max-w-[256px] mx-auto">
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        </div>
+        </p>
       </Card>
     </div>
   );
