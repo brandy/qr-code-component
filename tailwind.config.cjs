@@ -19,20 +19,17 @@ module.exports = {
         sans: ['Outfit', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
-        'heading': '22px',
-        'body': '15px'
-      }
-    },
-    screens: {
-      'tablet': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'laptop': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'desktop': '1280px',
-      // => @media (min-width: 1280px) { ... }
-    },
+        'heading': ['22px', '28px'],
+        'body': ['15px', '19px']
+      },
+      letterSpacing: {
+        'heading': '1',
+        'body': '0.1875px'
+      },
+      boxShadow: {
+        'card': '0px 25px 25px rgba(0, 0, 0, 0.0476518)',
+      },
+    }
   },
   plugins: [
     require('@tailwindcss/typography'),
